@@ -93,10 +93,10 @@ local function nosoundspleasenga()
 end
 
 local function nofrog()
-	local lighting = game:GetService("Lighting")
-	lighting.FogEnd = 1e10
-	lighting.FogStart = 1e10
-	lighting.FogColor = Color3.new(0.5, 0.5, 0.5)
+	local lighting2 = game:GetService("Lighting")
+	lighting2.FogEnd = 1e10
+	lighting2.FogStart = 1e10
+	lighting2.FogColor = Color3.new(0.5, 0.5, 0.5)
 end
 
 nofrog()
@@ -109,6 +109,7 @@ local function nolightyagami() --// I actually loves light yagami, no hate. //
 	for _, v in next, lighting:GetChildren() do
 		v:Destroy()
 	end
+	
 	lighting.Ambient = Color3.new(0.5, 0.5, 0.5)
 	lighting.Brightness = 1
 	lighting.ClockTime = 12
