@@ -1,6 +1,8 @@
 --// Credits: Windows81(https://github.com/Windows81/Personal-Roblox-Client-Scripts/blob/main/no-render.lua) for white-screen. And credits Windows81 again for the animation disabler/destroyer(https://github.com/Windows81/Personal-Roblox-Client-Scripts/blob/main/anim.lua) --//
 --[[
     These fflags always availvable in any executors. You can use your executor's fflag bypasses to gain access more into fflag but it has a lots of vulnerabilities so i wouldn't recommend doing that, unless you really need to.
+	And lastly, this norender removes all gui/ui so, i recommended you to use it when using some scripts like bloxfruits sailor piece. This one designed for using exploits to farm without consuming much resources of your devices, in return gui/ui/terrain/fog are removed or modified.
+	But you also can edit it into a minimal no render where it doesn't destroy guis, and has fullbright or whatever you wanted it to be. Again, ts is open-sourced n forkable so i don't rlly cares if you gonna skid it since ts is availvable everywhere.
 ]]
 
 setfpscap(9 * 9)
